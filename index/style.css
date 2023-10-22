@@ -1,0 +1,272 @@
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.menu .baner {
+  position: absolute;
+  width: 1440px;
+  height: 241px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .text-wrapper {
+  position: absolute;
+  width: 961px;
+  top: 131px;
+  left: 236px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .p {
+  position: absolute;
+  width: 961px;
+  top: 71px;
+  left: 236px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .kontakt {
+  position: absolute;
+  width: 785px;
+  height: 142px;
+  top: 791px;
+  left: 601px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .text-wrapper-2 {
+  position: absolute;
+  width: 692px;
+  top: 70px;
+  left: 54px;
+  font-family: "Inter-BoldItalic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-3 {
+  position: absolute;
+  width: 652px;
+  top: 17px;
+  left: 30px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .co-to {
+  position: absolute;
+  width: 481px;
+  height: 460px;
+  top: 342px;
+  left: 34px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .text-wrapper-4 {
+  position: absolute;
+  width: 303px;
+  top: 33px;
+  left: 71px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .overlap-group {
+  position: absolute;
+  width: 398px;
+  height: 343px;
+  top: 79px;
+  left: 23px;
+}
+
+.menu .text-wrapper-5 {
+  position: absolute;
+  width: 276px;
+  top: 0;
+  left: 79px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .IMG-radix {
+  width: 398px;
+  height: 279px;
+  top: 64px;
+  left: 0;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .radix-sort-in-c {
+  position: absolute;
+  width: 398px;
+  height: 279px;
+  top: 0;
+  left: 0;
+}
+
+.menu .prezentacja {
+  position: absolute;
+  width: 422px;
+  height: 339px;
+  top: 342px;
+  left: 537px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .text-wrapper-6 {
+  position: absolute;
+  width: 376px;
+  top: 24px;
+  left: 25px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-7 {
+  position: absolute;
+  width: 276px;
+  top: 78px;
+  left: 73px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .IMG-gear {
+  width: 322px;
+  height: 158px;
+  top: 147px;
+  left: 50px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .gears-and-cogs-in {
+  position: absolute;
+  width: 322px;
+  height: 158px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.menu .posortuj {
+  position: absolute;
+  width: 412px;
+  height: 256px;
+  top: 342px;
+  left: 974px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .text-wrapper-8 {
+  position: absolute;
+  width: 134px;
+  top: 23px;
+  left: 139px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-9 {
+  position: absolute;
+  width: 276px;
+  top: 69px;
+  left: 79px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .IMG-input {
+  width: 230px;
+  height: 129px;
+  top: 112px;
+  left: 98px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.menu .img {
+  position: absolute;
+  width: 230px;
+  height: 129px;
+  top: 0;
+  left: 0;
+}

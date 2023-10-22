@@ -1,0 +1,235 @@
+.sorotwanie {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sorotwanie .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.sorotwanie .prezentacja {
+  position: absolute;
+  width: 741px;
+  height: 173px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.sorotwanie .text-wrapper {
+  position: absolute;
+  width: 667px;
+  top: 73px;
+  left: 63px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .text-wrapper-2 {
+  position: absolute;
+  width: 645px;
+  top: 20px;
+  left: 41px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .wejsciowe {
+  position: absolute;
+  width: 741px;
+  height: 412px;
+  top: 173px;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.sorotwanie .p {
+  position: absolute;
+  width: 617px;
+  top: 73px;
+  left: 48px;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .text-wrapper-3 {
+  position: absolute;
+  width: 645px;
+  top: 20px;
+  left: 39px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .dane-wprowad-dane {
+  position: absolute;
+  width: 639px;
+  top: 142px;
+  left: 39px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .span {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
+.sorotwanie .text-wrapper-4 {
+  font-family: "Inter-Italic", Helvetica;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.sorotwanie .b-posortuj {
+  position: absolute;
+  width: 179px;
+  height: 75px;
+  top: 308px;
+  left: 505px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.sorotwanie .text-wrapper-5 {
+  position: absolute;
+  width: 179px;
+  height: 75px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .back {
+  position: absolute;
+  width: 555px;
+  height: 124px;
+  top: 877px;
+  left: 846px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.sorotwanie .text-wrapper-6 {
+  position: absolute;
+  width: 267px;
+  top: 37px;
+  left: 30px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .element {
+  position: absolute;
+  width: 188px;
+  height: 87px;
+  top: 25px;
+  left: 332px;
+  object-fit: cover;
+}
+
+.sorotwanie .wyjsciowe {
+  width: 699px;
+  height: 828px;
+  top: 0;
+  left: 741px;
+  position: absolute;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.sorotwanie .text-wrapper-7 {
+  position: absolute;
+  width: 655px;
+  top: 20px;
+  left: 29px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .tu-pojawi-si {
+  position: absolute;
+  width: 672px;
+  top: 130px;
+  left: 12px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .wyjsciowe-2 {
+  width: 741px;
+  height: 243px;
+  top: 585px;
+  left: 0;
+  position: absolute;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.sorotwanie .dane-tu-pojawi-si {
+  position: absolute;
+  width: 639px;
+  top: 141px;
+  left: 26px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sorotwanie .text-wrapper-8 {
+  font-size: 16px;
+}

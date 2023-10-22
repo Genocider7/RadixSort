@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="prezentacja">
+      <div class="div">
+        <div class="div-2">
+          <p class="text-wrapper">Poniżej jest zaprezetowane jak działa RadixSort dla konkretnych danych</p>
+          <div class="text-wrapper-2">Wybrałeś Prezentację sortowania</div>
+        </div>
+        <div class="wejsciowe">
+          <p class="p">Poniżej jest zaprezetowane jak działa RadixSort dla konkretnych danych</p>
+          <div class="text-wrapper-2">Dane Wejściowe:</div>
+          <p class="text-wrapper-3">Dane: [505, 103, 87, 20, 325, 211, 134, 8]</p>
+          <p class="text-wrapper-4">Na wejściu znajduje się nieposortowana tablica liczb naturalnych</p>
+        </div>
+        <div class="wyjsciowe">
+          <p class="p">Poniżej wynik sortowania wybranej tablicy liczb</p>
+          <div class="text-wrapper-2">Dane Wyjsciowe:</div>
+          <div class="overlap-group">
+            <div class="text"></div>
+            <p class="text-wrapper-5">Dane: [8, 20, 87, 103, 134, 211, 325, 505]</p>
+            <p class="text-wrapper-6">Na wyjściu znajduje się posortowana tablica liczb naturalnych.</p>
+          </div>
+        </div>
+        <div class="wyjsciowe-2">
+          <p class="text-wrapper-7">Operacje wykonywane na danych wejściowych:</p>
+          <div class="flexcontainer">
+            <p class="span-wrapper">
+              <span class="span">[505, 103, 87, 20, 325, 211, 134, 8]<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">↓<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span"
+                >[{"{"}020{"}"}, {"{"}211{"}"}, {"{"}{"}"}, {"{"}103{"}"}, {"{"}134{"}"}, {"{"}505, 325{"}"},
+                {"{"}{"}"}, {"{"}087{"}"}, {"{"}008{"}"}, {"{"}{"}"}]<br
+              /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">↓<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">[20, 211, 103, 134, 505, 325, 87, 8]<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">↓<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span"
+                >[{"{"}103, 505, 008{"}"}, {"{"}211{"}"}, {"{"}020, 325{"}"}, {"{"}134{"}"}, {"{"}{"}"}, {"{"}{"}"},
+                {"{"}{"}"}, {"{"}{"}"}, {"{"}087{"}"}, {"{"}{"}"}]<br
+              /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">↓<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">[103, 505, 8, 211, 20, 325, 134, 87]<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">↓<br /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span"
+                >[{"{"}008, 020, 087{"}"}, {"{"}103, 134{"}"}, {"{"}211{"}"}, {"{"}325{"}"}, {"{"}{"}"}, {"{"}505{"}"},
+                {"{"}{"}"}, {"{"}{"}"}, {"{"}{"}"}, {"{"}{"}"}]<br
+              /></span>
+            </p>
+            <p class="span-wrapper">
+              <span class="span">↓<br /></span>
+            </p>
+            <p class="span-wrapper"><span class="span">[8, 20, 87, 103, 134, 211, 325, 505]</span></p>
+          </div>
+        </div>
+        <div class="back">
+          <div class="text-wrapper-8">Powrót do Menu</div>
+          <img class="element" src="img/93634-1.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
