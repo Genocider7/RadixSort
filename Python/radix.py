@@ -23,6 +23,8 @@ def get_input_from_console():
 #PL - Program główny w którym wykonane są wszystkie powyższe Funkcje
 def main():
     arr = get_input_from_console()
+    if arr == None:
+        return
     sorter = Sorter(arr, order = order)
     sorter.sort()
     print(sorter.working_array)
