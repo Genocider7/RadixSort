@@ -1,0 +1,1 @@
+Wersja pythona przy produkcji: 3.11.4
