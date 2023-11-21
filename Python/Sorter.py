@@ -57,7 +57,7 @@ class Sorter:
         self.fill_array()
         for i in range(1, self.get_biggest_length() + 1):
             self.buckets = self.create_empty_buckets()
-            for el in arr:
+            for el in self.working_array:
                 self.buckets[el[-1 * i]].append(el)
-            arr = self.join_buckets(self.buckets)
+            self.working_array = self.join_buckets()
         self.working_array = self.turn_to_int()
