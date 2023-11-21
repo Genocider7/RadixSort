@@ -10,14 +10,14 @@ def join_buckets(buckets: list):
     return ret
 
 #PL - Tworzy pusty kubełek
-def createEmptyBuckets():
+def create_empty_buckets():
     ret = {}
     for radix in order:
         ret[radix] = []
     return ret
 
 #PL - Konwersja zawartośni na stringi
-def turnToStr(arr: list):
+def turn_to_str(arr: list):
     ret = []
     for el in arr:
         ret.append(str(el))
@@ -40,7 +40,7 @@ def fill_array(arr: list, size: int):
     return ret
 
 #PL - Konwersja zmiennej do wartości całkowitej
-def turnToInt(arr: list):
+def turn_to_int(arr: list):
     ret = []
     for el in arr:
         ret.append(int(el))
@@ -49,15 +49,15 @@ def turnToInt(arr: list):
 #PL - Program główny w którym wykonane są wszystkie powyższe Funkcje
 def main():
     arr = [505, 103, 87, 20, 325, 211, 134, 8]
-    arr = turnToStr(arr)
+    arr = turn_to_str(arr)
     size = get_biggest_length(arr)
     arr = fill_array(arr, size)
     for i in range(1, size + 1):
-        buckets = createEmptyBuckets()
+        buckets = create_empty_buckets()
         for el in arr:
-            buckets[el[-1*i]].append(el)
+            buckets[el[-1 * i]].append(el)
         arr = join_buckets(buckets)
-    print(turnToInt(arr))
+    print(turn_to_int(arr))
 
 if __name__ == '__main__':
     main()
