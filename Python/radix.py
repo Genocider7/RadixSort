@@ -1,6 +1,6 @@
 order = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-def join_buckets(buckets):
+def join_buckets(buckets: list):
     ret = []
     for radix in order:
         for el in buckets[radix]:
@@ -13,27 +13,27 @@ def createEmptyBuckets():
         ret[radix] = []
     return ret
 
-def turnToStr(arr):
+def turnToStr(arr: list):
     ret = []
     for el in arr:
         ret.append(str(el))
     return ret
 
-def get_biggest_length(arr):
+def get_biggest_length(arr: list):
     biggest = 0
     for el in arr:
         if biggest < len(el):
             biggest = len(el)
     return biggest
 
-def fill_array(arr, size):
+def fill_array(arr: list, size: int):
     ret = []
     for el in arr:
         temp = order[0] * (size - len(el)) + el
         ret.append(temp)
     return ret
 
-def turnToInt(arr):
+def turnToInt(arr: list):
     ret = []
     for el in arr:
         ret.append(int(el))
