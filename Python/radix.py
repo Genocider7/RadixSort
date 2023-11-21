@@ -46,9 +46,27 @@ def turn_to_int(arr: list):
         ret.append(int(el))
     return ret
 
+#PL - Pobranie danych od użytkownika z konsoli
+def get_input_from_console():
+    print('Please enter array as non-negative integers seperated by only a single space:')
+    raw_input = input()
+    listed_input = raw_input.split(' ')
+    parsed_input = []
+    for element in listed_input:
+        try:
+            temp_integer = int(element)
+        except ValueError:
+            print('Couldn\'t parse "{}"'.format(element))
+            return
+        if temp_integer < 0:
+            print('{} is not a non-negative integer'.format(temp_integer))
+            return
+        parsed_input.append(temp_integer)
+    return parsed_input
+
 #PL - Program główny w którym wykonane są wszystkie powyższe Funkcje
 def main():
-    arr = [505, 103, 87, 20, 325, 211, 134, 8]
+    arr = get_input_from_console()
     arr = turn_to_str(arr)
     size = get_biggest_length(arr)
     arr = fill_array(arr, size)
